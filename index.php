@@ -12,28 +12,21 @@
     <title>Document</title>
 </head>
 <body>
-
-    <p></p>
     <div class="container-fluid m-0 bg-dark ">
         <div class="row">
             <div class=" col-3">
-                <div class="sidebar row  d-flex text-center align-content-center ">
-                    <div class="my-2 link ">
-                        <a href="#"><ion-icon name="home-outline"></ion-icon> Home </a>
-                    </div>
-                    <div class="my-2 link">
-                        <a href=""><ion-icon name="finger-print-outline"></ion-icon> About be</a>
-                    </div>
-                    <div class="my-2 link">
-                        <a href=""><ion-icon name="code-download-outline"></ion-icon> Project</a>
-                    </div>
-                    <div class="my-2 link">
-                        <a href=""><ion-icon name="chatbubbles-outline"></ion-icon> Contact</a>
-                    </div>
-                    <div class="my-2 link">
-                        <a href=""><ion-icon name="settings-outline"></ion-icon> Service
-                        </a>
-                    </div>
+                <div class="logo">
+                    <a href=""><Samp>NEIL</Samp>T</a>
+                </div>
+                <div class="menu">
+                    <ul class="menulist">
+                        <li class="menuLink"><a href="#">i</a></li>
+                        <li class="menuLink"><a href="#">i</a></li>
+                        <li class="menuLink"><a href="#">i</a></li>
+                        <li class="menuLink"><a href="#">i</a></li>
+                        <li class="menuLink"><a href="#">i</a></li>
+                        <li class="menuLink"><a href="#">i</a></li>
+                    </ul>
                 </div>
             </div>
             <div class="col-5 d-flex justify-content-center  ">
