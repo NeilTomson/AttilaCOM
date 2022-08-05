@@ -1,0 +1,48 @@
+/* general */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 1.1rem;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.5s;
+
+}
+
+
+/*SideBar*/
+.sidebar{
+    height: 100vh;
+}
+.col-4{
+    height: 100vh;
+}
+ion-icon{
+    padding-right: 5px;
+}
+a{  
+    margin: auto;
+    color: green;
+    text-decoration: none;
+    border-bottom: 1px transparent solid;
+}
+.link:hover a{
+    color:#fff;
+    border-bottom: 1px green solid;
+
+
+}
+
+/*
+
+*/
+.img{
+    height: 300px;
+    width: 250px;
+    background-color: green;
+    border: 1px solid #fff;
+}
+.content{
+    color:#fff
+}
