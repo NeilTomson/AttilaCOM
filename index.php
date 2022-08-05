@@ -8,24 +8,31 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet"><!--Googlefonts-->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/color.css">
 
     <title>Document</title>
 </head>
 <body>
-    <div class="container-fluid m-0 bg-dark ">
+    <div class="container-fluid m-0 bg-info ">
         <div class="row">
             <div class=" col-3">
                 <div class="logo">
-                    <a href=""><Samp>NEIL</Samp>T</a>
+                    <a href=""><Span>N</Span>EIL</a>
                 </div>
                 <div class="menu">
                     <ul class="menulist">
-                        <li class="menuLink"><a href="#">i</a></li>
-                        <li class="menuLink"><a href="#">i</a></li>
-                        <li class="menuLink"><a href="#">i</a></li>
-                        <li class="menuLink"><a href="#">i</a></li>
-                        <li class="menuLink"><a href="#">i</a></li>
-                        <li class="menuLink"><a href="#">i</a></li>
+                        <li class="menuLink"><a href="#">
+                            <ion-icon name="home-outline"></ion-icon>home
+                        </a></li>
+                        <li class="menuLink"><a href="#">
+                            <ion-icon name="person-outline"></ion-icon>About me
+                        </a></li>
+                        <li class="menuLink"><a href="#">
+                            <ion-icon name="code-outline"></ion-icon>Project
+                        </a></li>
+                        <li class="menuLink"><a href="#">
+                            <ion-icon name="mail-unread-outline"></ion-icon>Massage
+                        </a></li>
                     </ul>
                 </div>
             </div>

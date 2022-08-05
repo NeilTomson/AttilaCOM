@@ -1,9 +1,4 @@
 /* general */
-:root{
-    --bg-black-900:#ffffff;
-    --bg-black-500:#333333;
-    --bg-black-100:#cccccc;
-}
 *{
 
     padding: 0;
@@ -24,55 +19,71 @@
     align-items: center;
     justify-content: center;
     height: 35vh;
-
+    letter-spacing: 5px;
+    font-size: 2rem;
+}
+.logo Span{
+    color:var(--color-green);
+    letter-spacing: 5px;
+    font-size: 2rem;
 }
 .logo a{
-    padding: 30px;
+    letter-spacing: 5px;
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
     position: relative;
 }
 .logo a::after{
     box-sizing: border-box;
     content: "";
-    width: 20px;
+    width: 25px;
     height: 20px;
     position: absolute;
-    border-top: 5px solid red;
-    border-right: 5px solid red;
+    border-top: 5px solid var(--color-green);
+    border-right: 5px solid var(--color-green);
     top: 0;
     right: 0;
 }
 .logo a::before{
     content: "";
-    width: 20px;
+    width: 25px;
     height: 20px;
     position: absolute;
-    border-bottom: 5px solid red;
-    border-left: 5px solid red;
+    border-bottom: 5px solid var(--color-green);
+    border-left: 5px solid var(--color-green);
     bottom: 0;
     left: 0;
 }
-.sidebar{
+.sidebar, .col-4, .col-5{
     height: 100vh;
 }
-.col-4{
-    height: 100vh;
+
+.menu{
+    height: 50vh;
+    width: 90%;
+    margin: auto;
+}
+.menulist{
+    list-style:none;
+    
+}
+.menuLink{
+    margin-top: 6px;
+}
+.menulist a{
+    font-size: 1.2rem;
+    color:var(--color-green);
+    letter-spacing: 3px;
+    text-decoration: none;
+
 }
 ion-icon{
-    padding-right: 5px;
-}
-a{  
-    margin: auto;
-    color: green;
-    text-decoration: none;
-    border-bottom: 1px transparent solid;
-}
-.link:hover a{
-    color:#fff;
-    border-bottom: 1px green solid;
 
-
+    margin-right: 3px;
+    color:var(--color-green);
 }
-
 /*
 
 */
