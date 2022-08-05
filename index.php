@@ -12,11 +12,7 @@
     <title>Document</title>
 </head>
 <body>
-    <p>HELo</p>
-    <?php
-    include("attila.php");
-    A();
-    ?>
+
     <p></p>
     <div class="container-fluid m-0 bg-dark ">
         <div class="row">
