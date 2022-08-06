@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet"><!--Googlefonts-->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/color.css">
+    <link rel="stylesheet" href="style.css">
 
     <title>Document</title>
 </head>
@@ -16,11 +17,12 @@
     <div class="container-fluid m-0 bg-info ">
         <div class="row">
             <div class=" col-3">
+                <div class=menu-toggle></div>
                 <div class="logo">
                     <a href=""><Span>N</Span>EIL</a>
                 </div>
                 <div class="menu">
-                    <ul class="menulist">
+                    <ul class="menulist ">
                         <li class="menuLink">
                             <a href="#">
                                 <ion-icon name="home-outline"></ion-icon>home
