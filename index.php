@@ -21,8 +21,9 @@
                 </div>
                 <div class="menu">
                     <ul class="menulist">
-                        <li class="menuLink"><a href="#">
-                            <ion-icon name="home-outline"></ion-icon>home
+                        <li class="menuLink">
+                            <a href="#">
+                                <ion-icon name="home-outline"></ion-icon>home
                         </a></li>
                         <li class="menuLink"><a href="#">
                             <ion-icon name="person-outline"></ion-icon>About me

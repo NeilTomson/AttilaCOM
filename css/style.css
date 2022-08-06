@@ -58,6 +58,7 @@
 }
 .sidebar, .col-4, .col-5{
     height: 100vh;
+
 }
 
 .menu{
@@ -71,17 +72,20 @@
 }
 .menuLink{
     margin-top: 6px;
+    display: block;
 }
 .menulist a{
-    font-size: 1.2rem;
-    color:var(--color-green);
+    font-size: 15rem;
+    padding: 10px 15px;
+    border-bottom: 3px solid red;
+    color:var(--color-red);
     letter-spacing: 3px;
     text-decoration: none;
 
 }
 ion-icon{
 
-    margin-right: 3px;
+    margin-left: 20px;
     color:var(--color-green);
 }
 /*
