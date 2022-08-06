@@ -94,9 +94,10 @@ ion-icon{
 .img{
     height: 300px;
     width: 250px;
-    background-color: green;
+    background-color: blue;
     border: 1px solid #fff;
 }
 .content{
     color:#fff
 }
+
