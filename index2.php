@@ -17,7 +17,9 @@
     <div class="container-fluid m-0 bg-info ">
         <div class="row">
             <div class=" col-3">
-                <div class=menu-toggle></div>
+                <div class=menu-toggle>
+                    <span></span>
+                </div>
                 <div class="logo">
                     <a href=""><Span>N</Span>EIL</a>
                 </div>

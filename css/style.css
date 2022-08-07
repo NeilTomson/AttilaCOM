@@ -76,7 +76,6 @@
 .menulist a{
     font-size: 1.2rem;
     padding: 10px 15px;
-    border-bottom: 3px solid red;
     color:var(--color-green);
     letter-spacing: 3px;
     text-decoration: none;
