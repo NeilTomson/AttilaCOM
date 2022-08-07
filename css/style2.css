@@ -1,36 +1,181 @@
 /*general*/
-:root{
-    --bg-black-900:#f2f2f2;
-    --bg-black-500:#fdf9ff;
-    --bg-black-100:#e8dfec;
-    --text-black-900:#302e4d;
-    --text-back-700:#504e70;
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Poppins:wght@400;500;700&family=Sacramento&display=swap');
+
+:root {
+    --bg-black-900: #f2f2f2;
+    --bg-black-500: #fdf9ff;
+    --bg-black-100: #e8dfec;
+    --text-black-900: #302e4d;
+    --text-back-700: #504e70;
 
 }
-:root{
-    --color-green:#198754;
-    --color-blue:#195787;
-    --color-red:#d71a12;
-    --color-yellow:#ddc82d;
+
+:root {
+    --color-green: #198754;
+    --color-blue: #195787;
+    --color-red: #d71a12;
+    --color-yellow: #ddc82d;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     outline: none;
 }
-body{
+
+body {
     line-height: 1.5;
     font-size: 16px;
+    font-family: 'Poppins'sans-serif;
+
 }
-::after,::before{
+
+::after,
+::before {
     box-sizing: border-box;
 }
 
 /*aside*/
-nav{
- width: 30%;   
-position: fixed;
-background-color: var(--color-green);
+nav {
+    padding: 10px;
+    width: 25%;
+    height: 100vh;
+    position: fixed;
+    background-color: var(--bg-black-500);
+    z-index: 10;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+.section {
+
+    width: 75%;
+    height: 100vh;
+    background-color: var(--bg-black-900);
+    position: fixed;
+    left: 25%;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    display: block;
+    opacity: 1;
+    z-index: 0;
+}
+
+nav .logo {
+    position: fixed;
+    top: 60px;
+    font-size: 35px;
+    text-transform: capitalize;
+
+}
+
+nav .logo a {
+    color: var(--text-black-900);
+    background-color: var(--bg-black-500);
+    font-weight: 100;
+    padding: 20px 30px;
+    font-family: 'Courgette', cursive;
+    position: relative;
+}
+
+nav .logo a span {
+    font-weight: 700;
+    font-family: 'Sacramento', cursive;
+    font-size: 40px;
+}
+
+nav .logo a::before {
+    content: "";
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    border-bottom: 5px solid var(--color-green);
+    border-left: 5px solid var(--color-green);
+    bottom: 0;
+    left: 0;
+}
+
+nav .logo a::after {
+    content: "";
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    border-top: 5px solid var(--color-green);
+    border-right: 5px solid var(--color-green);
+    top: 0;
+    right: 0;
+
+}
+
+.nav-toggler {
+    cursor: pointer;
+    height: 60px;
+    width: 55px;
+    border: 1px solid var(--bg-black-900);
+    background-color: red;
+    position: fixed;
+    top: 30px;
+    left: 30%;
+    border-radius: 7px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-toggler span {
+    height: 3px;
+    width: 28px;
+    display: inline-block;
+    background: var(--bg-black-900);
+    position: relative;
+}
+
+.nav-toggler span::before {
+    content: "";
+    height: 3px;
+    width: 28px;
+    display: inline-block;
+    background: var(--bg-black-900);
+    position: absolute;
+    top: -7px;
+    left: 0;
+}
+
+.nav-toggler span::after {
+    content: "";
+    height: 3px;
+    width: 28px;
+    display: inline-block;
+    background: var(--bg-black-900);
+    position: absolute;
+    top: 7px;
+    left: 0;
+}
+
+nav .navlink {
+    margin-bottom: 20px;
+    display: block;
+}
+
+nav .navlink a {
+    font-size: 20px;
+    font-weight: 600;
+    display: block;
+    color: var(--text-black-900);
+    padding: 15px 20px;
+    border-bottom: 2px solid var(--bg-black-100);
+}
+
+nav a.active {
+    color: var(--color-green);
 }

@@ -29,7 +29,7 @@
                             <a href="#">
                                 <ion-icon name="home-outline"></ion-icon>home
                         </a></li>
-                        <li class="menuLink"><a href="#">
+                        <li class="menuLink active"><a href="#">
                             <ion-icon name="person-outline"></ion-icon>About me
                         </a></li>
                         <li class="menuLink"><a href="#">
