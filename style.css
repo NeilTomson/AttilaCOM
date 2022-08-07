@@ -124,12 +124,26 @@ ion-icon{
 /*
 
 */
-.img{
+.imga{
     height: 300px;
     width: 250px;
-    background-color: green;
-    border: 1px solid #fff;
+    background-color: red;
+
+    position: relative;
 }
 .content{
     color:#fff
+}
+.imga::after{
+    content: "";
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-top: 5px solid blue;
+    border-left: 5px solid blue;
+    position: absolute;
+    
+}
+.Hello{
+    color: #000;
 }

@@ -29,6 +29,8 @@ body{
 }
 
 /*aside*/
-aside{
-    
+nav{
+ width: 30%;   
+position: fixed;
+background-color: var(--color-green);
 }

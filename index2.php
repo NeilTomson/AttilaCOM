@@ -43,17 +43,17 @@
             </div>
             <div class="col-5 d-flex justify-content-center  ">
                 <div class="row align-items-center">
-                    <div class="content">
-                        <h1>HEllo my freind</h1>
-                        <h3>I'am a .....</h3>
-                        <p>Thank you for visiting my website, I hope I can provide you with a lot of useful information</p> 
+                    <div class="content p-4">
+                        <h1 class="Hello">Helo az én nevem <Span class="name">Toaso Albert Attila</Span> </h1>
+                        <h3>Én egy <span class="Typing">..</span>vagyok</h3>
+                        <p>Egy pályakezdő  fullstack fejlesztő vagyok nagy vággyal hogy valami hasznosat alkossak a világ/(mások) számára </p> 
                     </div>
                 </div>
             </div>
             <div class="col-4 d-flex justify-content-center  ">
                 <div class="row align-items-center">
                     <div class="img">
-                        <img src="" alt="">                  
+                            <p>ad</p>
                     </div>
                 </div>
             </div>
