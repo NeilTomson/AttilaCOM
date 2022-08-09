@@ -235,6 +235,7 @@ i{
     flex: 0 0 60%;
     width: 60%;
 
+
 }
 
 .home .helo {
@@ -507,7 +508,39 @@ i{
 /*meddia query*/
 @media (max-width:1199px){
     nav{
-        left: -270px;
+        left: -300px;
     }
-    .c
+    .main-contant{
+        padding-left: 0;
+    }
+    .about .personal-info .info-item p span{
+         display: block;
+         margin-left: 0;
+
+    }
+}
+@media (max-width:950px){
+    .home .home-info{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .portolfolio .portofolio-item,
+    .contact .contact-info-item{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .home .home-img{
+        display: none;
+    }
+}
+@media (max-width:764px){
+    .contact .contact-form .col-6,
+    .contact .contact-info-item,
+    .portolfolio .portofolio-item,
+    .about .skills,
+    .about .personal-info{
+        flex: 0 0 100%;
+        max-width: 100%;
+
+    }
 }
