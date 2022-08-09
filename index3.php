@@ -34,7 +34,7 @@
             </ul>
         </nav>
         <main class="main-contant">
-            <section class="home section hidden">
+            <section class="home section ">
                 <div class="contant">
                     <div class="row">
                         <div class="home-info padding ">
@@ -49,7 +49,7 @@
                     </div>
                 </div>
             </section>
-            <section class="about section hidden">
+            <section class="about section ">
                 <div class="container about">
                     <div class="row">
                         <div class="section-title padding">
@@ -131,7 +131,7 @@
                     <!--ide irjak majd be egy részt az egyetemről-->
                 </div>
             </section>
-            <section class="portolfolio section hidden">
+            <section class="portolfolio section ">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padding">
@@ -209,6 +209,49 @@
                             <div class="icon"><i class="fa fa-globe-europe"></i></div>
                             <h4>Website</h4>
                             <p>WWWW.ez</p>
+                        </div>
+                    </div>
+                    <h1 class="contact-title padding">
+                        Send me an email
+                    </h1>
+                    <h4 class="contact-title-sub">
+                         I'm resposive to massage
+                    </h4>
+                    <div class="row">
+                        <div class="contact-form padding">
+                            <div class="row">
+                                <div class="form-item col-6 padding">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Name" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-item col-6 padding">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Email" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">  
+                                <div class="form-item col-12 padding">
+                                    <div class="form-group">
+                                        <textarea name="" id="" placeholder="Subject" class="form-control"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">  
+                                <div class="form-item col-12 padding">
+                                    <div class="form-group">
+                                        <textarea name="" id=""  placeholder="Message" class="form-control message"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">  
+                                <div class="form-item col-12 padding">
+                                    <button type="submit" class="btn" >
+                                        Send me an Email
+                                    </button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
