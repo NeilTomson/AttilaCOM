@@ -439,3 +439,34 @@ i{
 }
 
 /*contact*/
+.contact-title{
+    text-align: center;
+    color: var(--color-green);
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+.contact-title-sub{
+    text-align: center;
+    color: var(--text-black-900);
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.contact-info-item{
+    flex: 0 0 25%;
+    max-width: 25%;
+    text-align: center;
+}
+.contact .contact-info-item .icon{
+    display: inline-block;
+}
+.contact .contact-info-item .fa{
+    color: var(--color-green);
+    font-size: 25px;
+}
+.contact .contact-info-item h4{
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--text-back-500);
+    text-transform: capitalize;
+
+}

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
-    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container-main">
@@ -49,7 +49,7 @@
                     </div>
                 </div>
             </section>
-            <section class="about section">
+            <section class="about section hidden">
                 <div class="container about">
                     <div class="row">
                         <div class="section-title padding">
@@ -131,7 +131,7 @@
                     <!--ide irjak majd be egy részt az egyetemről-->
                 </div>
             </section>
-            <section class="portolfolio section">
+            <section class="portolfolio section hidden">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padding">
@@ -172,7 +172,44 @@
                                 </div>
                             </div>
                         </div>
-                        
+
+                    </div>
+                </div>
+            </section>
+            <section class="contact section">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title">
+                            <h1>Contacte Me</h1>
+                        </div>
+                    </div>
+                    <h1 class="contact-title">
+                        Have  you any Question?
+                    </h1>
+                    <h4 class="contact-title-sub">
+                        I'm at your Service
+                    </h4>
+                    <div class="row">
+                        <div class="contact-info-item padding">
+                            <div class="icon"><i class="fa fa-globe-europe"></i></div>
+                            <h4>Website</h4>
+                            <p>WWWW.ez</p>
+                        </div>
+                        <div class="contact-info-item padding">
+                            <div class="icon"><i class="fa fa-globe-europe"></i></div>
+                            <h4>Website</h4>
+                            <p>WWWW.ez</p>
+                        </div>
+                        <div class="contact-info-item padding">
+                            <div class="icon"><i class="fa fa-globe-europe"></i></div>
+                            <h4>Website</h4>
+                            <p>WWWW.ez</p>
+                        </div>
+                        <div class="contact-info-item padding">
+                            <div class="icon"><i class="fa fa-globe-europe"></i></div>
+                            <h4>Website</h4>
+                            <p>WWWW.ez</p>
+                        </div>
                     </div>
                 </div>
             </section>
