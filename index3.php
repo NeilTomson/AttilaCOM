@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
     <link rel="stylesheet" href="style1.css">
-    <link rel="stylesheet" href="swich.css">
+    <link rel="stylesheet" href="swich1.css">
 </head>
 <body>
     <div class="container-main">
@@ -259,7 +259,7 @@
             </section>
         </main>
     </div>
-    <div class="Style-swicher">
+    <div class="style-swicher">
         <div class="style-swicher-toggler icon-s">
             <i class="fas fa-cog fa-skin"></i>
         </div>   
@@ -277,4 +277,4 @@
     </div>
     <script src="javascript.js"></script>
 </body>
-</html>
+</html> 
