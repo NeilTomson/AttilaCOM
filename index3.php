@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="swich.css">
 </head>
 <body>
     <div class="container-main">
@@ -258,5 +259,22 @@
             </section>
         </main>
     </div>
+    <div class="Style-swicher">
+        <div class="style-swicher-toggler icon-s">
+            <i class="fas fa-cog fa-skin"></i>
+        </div>   
+        <div class="day-night icon-s">
+            <i class="fas fa-moon"></i>
+        </div>
+        <h4>Colors:</h4>
+        <div class="colors">
+            <span class="color-1" onclick="SetColor('color-1')"></span>
+            <span class="color-2" onclick="SetColor('color-2')"></span>
+            <span class="color-3" onclick="SetColor('color-3')"></span>
+            <span class="color-4" onclick="SetColor('color-4')"></span>
+            <span class="color-5" onclick="SetColor('color-5')"></span>
+        </div>
+    </div>
+    <script src="javascript.js"></script>
 </body>
 </html>

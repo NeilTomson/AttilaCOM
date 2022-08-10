@@ -1,0 +1,85 @@
+.Style-swicher {
+    position: fixed;
+    top: 10px;
+    right: 0px;
+    padding: 15px;
+    width: 200px;
+    border: 1px solid var(--bg-black-100);
+    background-color: var(--bg-black-500);
+    z-index: 101;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+   transform: translateX(100%);
+}
+.Style-swicher .open{
+    transform: translateX(-25px);
+}
+.Style-swicher .icon-s {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    background: var(--bg-black-100);
+    color: var(--text-900);
+    border: 1px solid var(--text-back-500);
+    right: 100%;
+    margin-right: 25px;
+    cursor: pointer;
+    border-radius: 50%;
+
+}
+
+.Style-swicher i {
+    line-height: 40px;
+    margin-left: 10px;
+}
+
+.Style-swicher .day-night {
+    top: 55px;
+}
+
+.Style-swicher .style-swicher-toggler {
+    top: 0;
+}
+
+.Style-swicher h4 {
+    color: var(--text-back-700);
+    margin: 0 0 14px;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.Style-swicher .colors {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Style-swicher .colors span {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+
+.Style-swicher .color-1 {
+    background: var(--color-red);
+}
+
+.Style-swicher .color-2 {
+    background: var(--color-orange);
+}
+
+.Style-swicher .color-3 {
+    background: var(--color-yellow);
+}
+
+.Style-swicher .color-4 {
+    background: var(--color-green);
+}
+
+.Style-swicher .color-5 {
+    background: var(--color-blue);
+}
