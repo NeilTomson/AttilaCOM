@@ -3,65 +3,291 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"><!--bootstrap-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet"><!--Googlefonts-->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/color.css">
-    <link rel="stylesheet" href="style.css">
-
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/color1.css">
+    <!-- colorlinkek -->
+    <link rel="stylesheet" href="css/color1.css" class="alternate-style" title="color-1" >
+    <link rel="stylesheet" href="css/color2.css" class="alternate-style" title="color-2" disabled>
+    <link rel="stylesheet" href="css/color3.css" class="alternate-style" title="color-3" disabled >
+    <link rel="stylesheet" href="css/color4.css" class="alternate-style" title="color-4" disabled>
+    <link rel="stylesheet" href="css/color5.css" class="alternate-style" title="color-5" disabled>
+    <link rel="stylesheet" href="css/color6.css" class="alternate-style" title="color-6" disabled>
+
+
+
+    <link rel="stylesheet" href="swich.css">
+ 
 </head>
 <body>
-    <div class="container-fluid m-0 bg-info ">
-        <div class="row">
-            <div class=" col-3">
-                <div class=menu-toggle>
-                    <span></span>
-                </div>
-                <div class="logo">
-                    <a href=""><Span>N</Span>EIL</a>
-                </div>
-                <div class="menu">
-                    <ul class="menulist ">
-                        <li class="menuLink">
-                            <a href="#">
-                                <ion-icon name="home-outline"></ion-icon>home
-                        </a></li>
-                        <li class="menuLink active"><a href="#">
-                            <ion-icon name="person-outline"></ion-icon>About me
-                        </a></li>
-                        <li class="menuLink"><a href="#">
-                            <ion-icon name="code-outline"></ion-icon>Project
-                        </a></li>
-                        <li class="menuLink"><a href="#">
-                            <ion-icon name="mail-unread-outline"></ion-icon>Massage
-                        </a></li>
-                    </ul>
-                </div>
+    <div class="container-main">
+        <nav class="aside">
+            <div class="logo">
+                <a href="">
+                    <span class="colorStyle red">A</span>ttila
+                </a>
+            </div> 
+            <div class="nav-toggler">
+                <span></span>
             </div>
-            <div class="col-5 d-flex justify-content-center  ">
-                <div class="row align-items-center">
-                    <div class="content p-4">
-                        <h1 class="Hello">Helo az én nevem <Span class="name">Toaso Albert Attila</Span> </h1>
-                        <h3>Én egy <span class="Typing">..</span>vagyok</h3>
-                        <p>Egy pályakezdő  fullstack fejlesztő vagyok nagy vággyal hogy valami hasznosat alkossak a világ/(mások) számára </p> 
+            <ul class="nav">
+                <li class=" navlink">
+                    <a href="#" class="active"><i class="fa fa-home"></i>Home</a>
+                </li>
+                <li class="navlink">
+                    <a href="#"><i class="fa fa-user"></i>Project</a>
+                </li>
+                <li class="navlink">
+                    <a href="#"><i class="fa fa-list"></i>About me</a>
+                </li>
+                <li class="navlink">
+                    <a href="#"><i class="fa fa-comments"></i>Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <main class="main-contant">
+            <section class="home section ">
+                <div class="contant">
+                    <div class="row">
+                        <div class="home-info padding ">
+                            <h1 class="helo">Hello my name is <span class="name">Attila</span></h1>
+                            <h3 class="myprofession">I am a <span class="Typing">fullstack developer</span></h3>
+                            <p>I am a beginner fullstack developer with a great desire to create something useful for the world</p>
+                            <a href="#" class="btn">More about me</a>
+                        </div>
+                        <div class="home-img padding">
+                            <img src="img/me.jpg" alt="">
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-4 d-flex justify-content-center  ">
-                <div class="row align-items-center">
-                    <div class="img">
-                            <p>ad</p>
+            </section>
+            <section class="about section ">
+                <div class="container about">
+                    <div class="row">
+                        <div class="section-title padding">
+                            <h1>About us</h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="about-text padding">
+                            <h3>I am a <span class="Typing">fullstack developer</span></h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae vero sint, natus, consequatur mollitia voluptatibus dicta, repellat beatae laborum adipisci modi voluptates. Officiis perspiciatis illo necessitatibus, aperiam corrupti asperiores iure.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="personal-info padding">
+                            <div class="row">
+                                <div class="info-item padding">
+                                    <p>Birthday: <span>1999.08.30</span> </p>
+                                </div>
+                                <div class="info-item padding">
+                                    <p>Age: <span>22</span> </p>
+                                </div>
+                                <div class="info-item padding">
+                                    <p>Website: <span>.....</span> </p>
+                                </div>
+                                <div class="info-item padding">
+                                    <p>Email: <span>info@yahoo.com</span> </p>
+                                </div>
+                                <div class="info-item padding">
+                                    <p>City: <span>Odorhei secuiesc /Székelyudvarhely</span> </p>
+                                </div>
+                                <div class="info-item padding">
+                                    <p>Country: <span>Romania</span> </p>
+                                </div>
+                                <div class="button padding">
+                                    <a href="" class="btn hire me">Contact me</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills padding">
+                            <div class="row">
+                                <div class="skill-item padding">
+                                    <h5>HTML</h5>
+                                    <div class="progress">
+                                        <div class="progress-in" style="width: 76%;"></div>
+                                        <div class="skill-percent">76%</div>
+                                    </div>
+                                </div>
+                                <div class="skill-item padding">
+                                    <h5>CSS</h5>
+                                    <div class="progress">
+                                        <div class="progress-in" style="width: 76%;"></div>
+                                        <div class="skill-percent">76%</div>
+                                    </div>
+                                </div>
+                                <div class="skill-item padding">
+                                    <h5>Javascript</h5>
+                                    <div class="progress">
+                                        <div class="progress-in" style="width: 80%;"></div>
+                                        <div class="skill-percent">76%</div>
+                                    </div>
+                                </div>
+                                <div class="skill-item padding">
+                                    <h5>PHP</h5>
+                                    <div class="progress">
+                                        <div class="progress-in" style="width: 16%;"></div>
+                                        <div class="skill-percent">76%</div>
+                                    </div>
+                                </div>
+                                <div class="skill-item padding">
+                                    <h5>MySQL</h5>
+                                    <div class="progress">
+                                        <div class="progress-in" style="width: 80%;"></div>
+                                        <div class="skill-percent">76%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--ide irjak majd be egy részt az egyetemről-->
+                </div>
+            </section>
+            <section class="portolfolio section ">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padding">
+                            <h1>Portofolio</h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="portofolio-head padding">
+                            <h2>My projects:</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="portofolio-item padding">
+                            <div class="portofolio-item-inner">
+                                <div class="portofolio-img">
+                                    <img src="" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portofolio-item padding">
+                            <div class="portofolio-item-inner">
+                                <div class="portofolio-img">
+                                    <img src="" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portofolio-item padding">
+                            <div class="portofolio-item-inner">
+                                <div class="portofolio-img">
+                                    <img src="" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portofolio-item padding">
+                            <div class="portofolio-item-inner">
+                                <div class="portofolio-img">
+                                    <img src="" alt="">
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
-            </div>
+            </section>
+            <section class="contact section">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title">
+                            <h1>Contacte Me</h1>
+                        </div>
+                    </div>
+                    <h1 class="contact-title">
+                        Have  you any Question?
+                    </h1>
+                    <h4 class="contact-title-sub">
+                        I'm at your Service
+                    </h4>
+                    <div class="row">
+                        <div class="contact-info-item padding">
+                            <div class="icon"><i class="fa fa-globe-europe"></i></div>
+                            <h4>Website</h4>
+                            <p>WWWW.ez</p>
+                        </div>
+                        <div class="contact-info-item padding">
+                            <div class="icon"><i class="fa fa-globe-europe"></i></div>
+                            <h4>Website</h4>
+                            <p>WWWW.ez</p>
+                        </div>
+                        <div class="contact-info-item padding">
+                            <div class="icon"><i class="fa fa-globe-europe"></i></div>
+                            <h4>Website</h4>
+                            <p>WWWW.ez</p>
+                        </div>
+                        <div class="contact-info-item padding">
+                            <div class="icon"><i class="fa fa-globe-europe"></i></div>
+                            <h4>Website</h4>
+                            <p>WWWW.ez</p>
+                        </div>
+                    </div>
+                    <h1 class="contact-title padding">
+                        Send me an email
+                    </h1>
+                    <h4 class="contact-title-sub">
+                         I'm resposive to massage
+                    </h4>
+                    <div class="row">
+                        <div class="contact-form padding">
+                            <div class="row">
+                                <div class="form-item col-6 padding">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Name" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-item col-6 padding">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Email" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">  
+                                <div class="form-item col-12 padding">
+                                    <div class="form-group">
+                                        <textarea name="" id="" placeholder="Subject" class="form-control"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">  
+                                <div class="form-item col-12 padding">
+                                    <div class="form-group">
+                                        <textarea name="" id=""  placeholder="Message" class="form-control message"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">  
+                                <div class="form-item col-12 padding">
+                                    <button type="submit" class="btn" >
+                                        Send me an Email
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <div class="style-swicher">
+        <div class="style-swicher-toggler icon-s">
+            <i class="fas fa-cog fa-skin"></i>
+        </div>   
+        <div class="day-night icon-s">
+            <i class="fas fa-moon"></i>
+        </div>
+        <h4>Colors:</h4>
+        <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+            <span class="color-6" onclick="setActiveStyle('color-6')"></span>
         </div>
     </div>
-
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+    <script src="javascript.js"></script>
 </body>
-</html>
+</html> 

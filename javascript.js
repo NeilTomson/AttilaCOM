@@ -14,3 +14,26 @@ window.addEventListener("scroll", () =>{
         document.querySelector('.style-swicher').classList.remove('open');
     }
 })
+
+const alternaStyles= document.querySelectorAll('.alternate-style');
+function setActiveStyle(color){
+    alternaStyles.forEach((style) => {
+        if(color === style.getAttribute("title")){
+            style.removeAttribute("disabled");
+        }else{
+            style.setAttribute("disabled","true");
+        }
+    })
+}
+
+
+
+
+
+
+
+
+
+
+
+

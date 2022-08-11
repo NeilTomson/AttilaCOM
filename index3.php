@@ -5,15 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
-    <link rel="stylesheet" href="style1.css">
-    <link rel="stylesheet" href="swich1.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/color1.css">
+    <!-- colorlinkek -->
+    <link rel="stylesheet" href="css/color1.css" class="alternate-style" title="color-1" >
+    <link rel="stylesheet" href="css/color2.css" class="alternate-style" title="color-2" disabled>
+    <link rel="stylesheet" href="css/color3.css" class="alternate-style" title="color-3" disabled >
+    <link rel="stylesheet" href="css/color4.css" class="alternate-style" title="color-4" disabled>
+    <link rel="stylesheet" href="css/color5.css" class="alternate-style" title="color-5" disabled>
+    <link rel="stylesheet" href="css/color6.css" class="alternate-style" title="color-6" disabled>
+
+
+
+    <link rel="stylesheet" href="swich.css">
+ 
 </head>
 <body>
     <div class="container-main">
         <nav class="aside">
             <div class="logo">
                 <a href="">
-                    <span>A</span>ttila
+                    <span class="colorStyle red">A</span>ttila
                 </a>
             </div> 
             <div class="nav-toggler">
@@ -268,11 +280,12 @@
         </div>
         <h4>Colors:</h4>
         <div class="colors">
-            <span class="color-1" onclick="SetColor('color-1')"></span>
-            <span class="color-2" onclick="SetColor('color-2')"></span>
-            <span class="color-3" onclick="SetColor('color-3')"></span>
-            <span class="color-4" onclick="SetColor('color-4')"></span>
-            <span class="color-5" onclick="SetColor('color-5')"></span>
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+            <span class="color-6" onclick="setActiveStyle('color-6')"></span>
         </div>
     </div>
     <script src="javascript.js"></script>

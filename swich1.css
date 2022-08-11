@@ -5,7 +5,7 @@
     padding: 15px;
     width: 200px;
     border: 1px solid var(--bg-black-100);
-    /* background-color: var(--bg-black-500); */
+    background-color: var(--bg-black-500);
     z-index: 101;
     border-radius: 10px;
     transition: all 0.3s ease;
@@ -66,21 +66,21 @@
 }
 
 .style-swicher .color-1 {
-    background: var(--color-red);
+    background: var(--skin-color);
 }
 
 .style-swicher .color-2 {
-    background: var(--color-orange);
+    background: var(--skin-color);
 }
 
 .style-swicher .color-3 {
-    background: var(--color-yellow);
+    background: var(--skin-color);
 }
 
 .style-swicher .color-4 {
-    background: var(--color-green);
+    background: var(--skin-color);
 }
 
 .style-swicher .color-5 {
-    background: var(--color-blue);
+    background: var(--skin-color);
 }
