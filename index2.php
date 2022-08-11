@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
     <link rel="stylesheet" href="css/color1.css">
     <!-- colorlinkek -->
     <link rel="stylesheet" href="css/color1.css" class="alternate-style" title="color-1" >
@@ -14,13 +14,9 @@
     <link rel="stylesheet" href="css/color4.css" class="alternate-style" title="color-4" disabled>
     <link rel="stylesheet" href="css/color5.css" class="alternate-style" title="color-5" disabled>
     <link rel="stylesheet" href="css/color6.css" class="alternate-style" title="color-6" disabled>
-
-
-
     <link rel="stylesheet" href="swich.css">
- 
 </head>
-<body>
+<body class="">
     <div class="container-main">
         <nav class="aside">
             <div class="logo">
@@ -276,7 +272,7 @@
             <i class="fas fa-cog fa-skin"></i>
         </div>   
         <div class="day-night icon-s">
-            <i class="fas fa-moon"></i>
+            <i class="fas" id="icon"></i>
         </div>
         <h4>Colors:</h4>
         <div class="colors">

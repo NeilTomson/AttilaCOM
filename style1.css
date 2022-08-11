@@ -7,14 +7,16 @@
     --bg-black-100: #e8dfec;
     --text-black-900: #302e4d;
     --text-back-700: #504e70;
-    --text-back-500:#5d5c66;
 
 }
-
-:root {
-    --skin-color:red;
+.dark{
+--bg-black-900: #151515;
+--bg-black-500: #222222;
+--bg-black-100: #393939;
+--text-black-900: #ffffff;
+--text-back-700: #e8e8e8;
+  
 }
-
 * {
     margin: 0;
     padding: 0;

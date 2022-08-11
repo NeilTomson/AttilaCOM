@@ -27,7 +27,20 @@ function setActiveStyle(color){
 }
 
 
-
+const NightDay= document.querySelector(".day-night");
+NightDay.addEventListener("click",() =>{
+    NightDay.querySelector("i").classList.toggle("fa-sun");    
+    NightDay.querySelector("i").classList.toggle("fa-moon");
+    document.body.classList.toggle("dark");
+})
+window.addEventListener("load",()=>{
+    if(document.body.classList.contains("dark")){
+        NightDay.querySelector("i").classList.add("fa-sun");
+    }else{
+        NightDay.querySelector("i").classList.add("fa-moon");
+        
+    }
+})
 
 
 
