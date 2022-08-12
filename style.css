@@ -9,7 +9,7 @@
     --text-back-700: #504e70;
 
 }
-body .dark{
+body.dark{
 --bg-black-900: #151515;
 --bg-black-500: #222222;
 --bg-black-100: #393939;
@@ -222,6 +222,7 @@ nav a.active {
 i{
     padding-right: 15px;
 }
+
 /*Main*/
 .home {
     min-height: 100vh;
@@ -238,6 +239,7 @@ i{
 }
 
 .home .helo {
+    color: var(--text-black-900);
     font-size: 28px;
     margin: 15px 0;
 }
@@ -261,6 +263,7 @@ i{
 }
 
 .home .myprofession {
+    color: var(--text-back-700);
     font-size: 30px;
     margin: 15px 0;
 }
@@ -356,11 +359,11 @@ i{
     padding: 13px 0 ;
     font-size: 18px;
     border-bottom: 2px solid var(--text-back-700);
-    color: var(--text-black-900);
+    color: red;
 }
 .about .personal-info .info-item p span{
     font-weight: 400;
-    color: var(--text-black-700);
+    color: var(--text-black-900);
     padding-left: 8px;
     display: inline-block;
 }
