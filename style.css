@@ -306,7 +306,7 @@ i{
     height: 520px;
 }
 
-/**/
+/*About me*/
 .section .container {
     padding-top: 60px;
     padding-bottom: 70px;
@@ -341,29 +341,34 @@ i{
     font-size: 26px;
     font-weight: 700;
     margin-bottom: 15px;
+    color: var(--text-black-900);
+}
+.about .about-text p{
+    font-size: 18px;
+    color: var(--text-back-700);
 }
 .about .personal-info{
     flex: 0 0 60%;
     width: 60%;
     margin-top: 60px;
     display: flex;
-
+    color: var(--text-black-900);
 }
 .about .personal-info .info-item{
     flex: 0 0 50%;
     max-width: 50%;
 
 }
-.about .personal-info .info-item p {
+.about .personal-info p {
     font-weight: 700;
     padding: 13px 0 ;
     font-size: 18px;
     border-bottom: 2px solid var(--text-back-700);
-    color: red;
+    color:var(--text-black-700)
 }
 .about .personal-info .info-item p span{
     font-weight: 400;
-    color: var(--text-black-900);
+    color: var(--text-back-700);
     padding-left: 8px;
     display: inline-block;
 }
@@ -470,10 +475,13 @@ i{
 .contact .contact-info-item h4{
     font-weight: 700;
     font-size: 18px;
-    color: var(--text-back-500);
+    color: var(--text-black-900);
     text-transform: capitalize;
-
 }
+.contact .contact-info-item p{
+    color: var(--text-back-700);
+}
+
 .contact .contact-form{
     flex: 0 0 100%;
     max-width: 100%;

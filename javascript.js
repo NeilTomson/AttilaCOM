@@ -42,7 +42,12 @@ window.addEventListener("load",()=>{
     }
 })
 
-
+var typed=new Typed(".typing",{
+    strings:["Fullstack developer","Frontend developer"],
+    typeSpeed:100,
+    BackSpeed:60,
+    loop:true,
+})
 
 
 

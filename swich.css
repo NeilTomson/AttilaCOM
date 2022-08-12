@@ -1,3 +1,4 @@
+
 .style-swicher {
     position: fixed;
     top: 10px;
@@ -20,8 +21,8 @@
     height: 40px;
     width: 40px;
     font-size: 20px;
-    background: var(--bg-black-100);
-    color: var(--text-900);
+    background: var();
+    color: var(--text-black-900);
     border: 1px solid var(--text-back-500);
     right: 100%;
     margin-right: 25px;
@@ -33,6 +34,7 @@
 .style-swicher i {
     line-height: 40px;
     margin-left: 10px;
+
 }
 
 .style-swicher .day-night {
@@ -44,7 +46,7 @@
 }
 
 .style-swicher h4 {
-    color: var(--text-back-700);
+    color: var(--text-black-900);
     margin: 0 0 14px;
     font-size: 16px;
     font-weight: 500;
