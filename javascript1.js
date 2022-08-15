@@ -11,6 +11,21 @@ window.addEventListener("scroll", () =>{
     }
 })
 
+
+var btns =document.querySelectorAll(".navlink_a");
+
+// Loop through the buttons and add the active class to the current/clicked button
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+});
+}
+
+
+
+
 const alternaStyles= document.querySelectorAll('.alternate-style');
 function setActiveStyle(color){
     alternaStyles.forEach((style) => {
@@ -39,8 +54,8 @@ window.addEventListener("load",()=>{
 })
 const Nav= document.querySelector(".nav-toggler");
 Nav.addEventListener("click",() =>{
-    console.log("helo");
-    document.body.classList.toggle("helo");
+    document.querySelector(".nav").classList.toggle("DropDown");
+
 })
 
 
@@ -51,3 +66,12 @@ var typed=new Typed(".typing",{
     BackSpeed:60,
     loop:true,
 })
+
+
+
+
+
+
+
+
+

@@ -6,15 +6,15 @@
     --bg-black-500: #fdf9ff;
     --bg-black-100: #e8dfec;
     --text-black-900: #302e4d;
-    --text-back-700: #504e70;
+    --text-black-700: #504e70;
 
 }
 body.dark{
---bg-black-900: #151515;
+--bg-black-900: #1f1e1e;
 --bg-black-500: #222222;
 --bg-black-100: #393939;
 --text-black-900: #ffffff;
---text-back-700: #e8e8e8;
+--text-black-700: #e8e8e8;
     
 }
 * {
@@ -75,8 +75,8 @@ body {
 }
 
 .btn {
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 25px;
+    font-weight: 700;
     padding: 15px 35px;
     border-radius: 40px;
     display: inline-block;
@@ -132,6 +132,7 @@ nav .logo a span {
     font-weight: 700;
     font-family: 'Courgette', cursive;
     font-size: 40px;
+    color:var(--skin-color);
 }
 
 nav .logo a::before {
@@ -161,8 +162,8 @@ nav .logo a::after {
     cursor: pointer;
     height: 60px;
     width: 55px;
-    border: 1px solid var(--bg-black-900);
-    background-color: red;
+    border: 1px solid var(--skin-color);
+    background-color: var(--skin-color);
     position: fixed;
     top: 30px;
     left: 30%;
@@ -170,35 +171,41 @@ nav .logo a::after {
     display: none;
     justify-content: center;
     align-items: center;
+        /* --bg-black-900: #f2f2f2;
+    --bg-black-500: #fdf9ff;
+    --bg-black-100: #e8dfec;
+    --text-black-900: #302e4d;
+    --text-back-700: #504e70; */
 }
 
 .nav-toggler span {
-    height: 3px;
+    height: 4px;
     width: 28px;
     display: inline-block;
-    background: var(--bg-black-900);
+    background: var(--bg-black-500);
     position: relative;
+
 }
 
 .nav-toggler span::before {
     content: "";
-    height: 3px;
+    height: 4px;
     width: 28px;
     display: inline-block;
-    background: var(--bg-black-900);
+    background: var(--bg-black-500);
     position: absolute;
-    top: -7px;
+    top: -9px;
     left: 0;
 }
 
 .nav-toggler span::after {
     content: "";
-    height: 3px;
+    height: 4px;
     width: 28px;
     display: inline-block;
-    background: var(--bg-black-900);
+    background: var(--bg-black-500);
     position: absolute;
-    top: 7px;
+    top: 9px;
     left: 0;
 }
 
@@ -263,7 +270,7 @@ i{
 }
 
 .home .myprofession {
-    color: var(--text-back-700);
+    color: var(--text-black-700);
     font-size: 30px;
     margin: 15px 0;
 }
@@ -345,7 +352,7 @@ i{
 }
 .about .about-text p{
     font-size: 18px;
-    color: var(--text-back-700);
+    color: var(--text-black-700);
 }
 .about .personal-info{
     flex: 0 0 60%;
@@ -363,12 +370,12 @@ i{
     font-weight: 700;
     padding: 13px 0 ;
     font-size: 18px;
-    border-bottom: 2px solid var(--text-back-700);
+    border-bottom: 2px solid var(--text-black-700);
     color:var(--text-black-700)
 }
 .about .personal-info .info-item p span{
     font-weight: 400;
-    color: var(--text-back-700);
+    color: var(--text-black-700);
     padding-left: 8px;
     display: inline-block;
 }
@@ -386,7 +393,7 @@ i{
     line-height: 40px;
     font-size: 600;
     font-size: 16px;
-    color: var(--text-back-700);
+    color: var(--text-black-700);
 }
 .about .skills .skill-item .progress{
     background-color: var(--bg-black-900);
@@ -406,7 +413,7 @@ i{
 .about .skills .skill-item .skill-percent{
     position: absolute;
     right: 0;
-    color: var(--text-back-700);
+    color: var(--text-black-700);
     top: -30px;
     font-weight: 700;
     line-height: 40px;
@@ -441,7 +448,7 @@ i{
 }
 .portolfolio .portofolio-item-inner{
     border-radius: 10px;
-    border: 8px solid var(--bg-black-500);
+    border: 8px solid var(--bg-black-900);
     cursor: pointer;
     overflow: hidden;
 }
@@ -479,7 +486,7 @@ i{
     text-transform: capitalize;
 }
 .contact .contact-info-item p{
-    color: var(--text-back-700);
+    color: var(--text-black-700);
 }
 
 .contact .contact-form{
@@ -518,7 +525,54 @@ i{
 /*meddia query*/
 @media (max-width:1199px){
     nav{
-        left: -300px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 10%;
+        width: 100vw;
+        display: flex;
+    }
+    nav .logo{
+
+        top: 0;
+        left: 5%;
+        height: 30px;
+        font-size: 22px;
+        padding-top: 10px;
+    }
+    nav .logo a span{
+        font-size:20px ;
+        color: var(--skin-color);
+    }
+    nav .logo a::before {
+        content: "";
+        width: 15px;
+        height: 10px;
+        position: absolute;
+        border-bottom: 2px solid var(--skin-color);
+        border-left: 2px solid var(--skin-color);
+        bottom: 15px;
+        left: 10px;
+    }
+    
+    nav .logo a::after {
+        content: "";
+        width: 15px;
+        height: 10px;
+        position: absolute;
+        border-top: 2px solid var(--skin-color);
+        border-right: 2px solid var(--skin-color);
+        top: 15px;
+        right: 10px;
+    }
+    
+    .aside ul{
+
+        display: flex;
+        flex-direction: row;
+    }
+    .aside ul li{
+        padding-top: 10px;
     }
     .main-contant{
         padding-left: 0;
@@ -530,20 +584,13 @@ i{
     }
 
 }
-@media (max-width:950px){
-    .home .home-info{
-        flex: 0 0 100%;
-        max-width: 100%;
 
-    }
-    .portolfolio .portofolio-item,
-    .contact .contact-info-item{
-        flex: 0 0 50%;
-        max-width: 50%;
-    }
-    .home .home-img{
-        display: none;
-    }
+
+
+
+
+@media (max-width:950px){
+
     nav{
             position: fixed;
             top: 0;
@@ -551,7 +598,6 @@ i{
             height: 10%;
             width: 100vw;
             display: flex;
-    
         }
         nav .logo{
 
@@ -561,11 +607,6 @@ i{
             font-size: 22px;
             padding-top: 10px;
         }
-        /* nav .logo a{
-            padding-bottom: 4px;   
-            border-bottom: 3px solid var(--skin-color);
-            border-right: 3px solid var(--skin-color);
-        } */
         nav .logo a span{
             font-size:20px ;
             color: var(--skin-color);
@@ -603,7 +644,24 @@ i{
         .aside ul li i{
             display: none;
         }
+        .home .home-info{
+            flex: 0 0 100%;
+            max-width: 100%;
+    
+        }
+        .portolfolio .portofolio-item,
+        .contact .contact-info-item{
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+        .home .home-img{
+            display: none;
+        }
 }
+
+
+
+
 @media (max-width:764px){
     .contact .contact-form .col-6,
     .contact .contact-info-item,
@@ -614,9 +672,43 @@ i{
         max-width: 100%;
     }
     .nav-toggler{
-        display: block;
+        z-index: 1;
+        position: fixed;
+        top:5%;
+        left: 5%;
+        display: flex;
     }
     nav .logo,nav .nav{
         display: none;
     }
+    nav{
+        background-color: var(--bg-black-900);
+    }
+    .DropDown {
+        z-index: 0;
+        background-color: var(--bg-black-900);
+    }
+    nav .nav.DropDown{
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+    }
+    nav .nav.DropDown .navlink{
+        width: 80%;
+    }
+    .portofolio-item-inner .portofolio-img{
+        margin: auto;
+        width: 80%;
+    }
+    .portofolio-item-inner .portofolio-img img{
+        width: 100%;
+        }
+
 }
