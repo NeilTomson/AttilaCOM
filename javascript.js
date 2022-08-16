@@ -1,53 +1,20 @@
-/*swich toggle style*/
-const styleSwichToggler = document.querySelector('.style-swicher-toggler');
-styleSwichToggler.addEventListener("click" ,() =>{
-    document.querySelector('.style-swicher').classList.toggle("open");
-})
-
-window.addEventListener("scroll", () =>{
-    if(document.querySelector('.style-swicher').classList.contains("open"))
-    {
-        document.querySelector('.style-swicher').classList.remove('open');
-    }
-})
-
-const alternaStyles= document.querySelectorAll('.alternate-style');
-function setActiveStyle(color){
-    alternaStyles.forEach((style) => {
-        if(color === style.getAttribute("title")){
-            style.removeAttribute("disabled");
-        }else{
-            style.setAttribute("disabled","true");
+const sections=document.querySelectorAll("section");
+const navlinks=document.querySelectorAll('.navlink');
+var navlink_a =document.querySelectorAll(".navlink_a");
+window.addEventListener('scroll', ()=> {
+    let current="";
+    sections.forEach(section =>{
+        const sectionTop= section.offsetTop;
+        const sectionHeight=section.clientHeight;
+        if(pageYOffset >=sectionTop){
+            current=section.getAttribute('id');
+        }    
+    })
+    console.log(current);
+    navlink_a.forEach( a =>{
+        a.classList.remove("active");
+        if(a.classname.contains(current)){
+            a.classList.add("active");
         }
     })
-}
-
-
-const NightDay= document.querySelector(".day-night");
-NightDay.addEventListener("click",() =>{
-    NightDay.querySelector("i").classList.toggle("fa-sun");    
-    NightDay.querySelector("i").classList.toggle("fa-moon");
-    document.body.classList.toggle("dark");
-})
-window.addEventListener("load",()=>{
-    if(document.body.classList.contains("dark")){
-        NightDay.querySelector("i").classList.add("fa-sun");
-    }else{
-        NightDay.querySelector("i").classList.add("fa-moon");
-        
-    }
-})
-const Nav= document.querySelector(".nav-toggler");
-Nav.addEventListener("click",() =>{
-    console.log("helo");
-    document.body.classList.toggle("helo");
-})
-
-
-
-var typed=new Typed(".typing",{
-    strings:["Fullstack developer","Frontend developer"],
-    typeSpeed:100,
-    BackSpeed:60,
-    loop:true,
 })

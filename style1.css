@@ -303,6 +303,7 @@ i{
 }
 
 .home .home-img img {
+    margin-top: 5px;
     margin: auto;
     border-radius: 20px;
     height: 520px;
@@ -577,11 +578,24 @@ i{
          margin-left: 0;
 
     }
-
+    .home-img {
+        position: absolute;
+        left: 0px;
+        top: 0px;    
+    } 
+    .home-img::after{
+        position: absolute;
+        right:0;
+        bottom: 0;
+        
+    } 
+    .home .home-img::before{
+        display: none;
+    } 
+    .home .home-img::after{
+        display: none;
+    } 
 }
-
-
-
 
 
 @media (max-width:950px){

@@ -14,9 +14,9 @@ window.addEventListener("scroll", () =>{
 function ToggleNavBack(){
     document.querySelector(".nav").classList.remove("DropDown");
 }
-var btns =document.querySelectorAll(".navlink_a");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
+var navlink_a =document.querySelectorAll(".navlink_a");
+for (var i = 0; i < navlink_a.length; i++) {
+    navlink_a[i].addEventListener("click", function() {
     var current = document.getElementsByClassName("active");
     current[0].className = current[0].className.replace(" active", "");
     this.className += " active";
@@ -24,9 +24,7 @@ for (var i = 0; i < btns.length; i++) {
 });
 }
 
-
-
-
+ 
 const alternaStyles= document.querySelectorAll('.alternate-style');
 function setActiveStyle(color){
     alternaStyles.forEach((style) => {
