@@ -157,11 +157,10 @@ nav .logo a::after {
     right: 0;
 
 }
-
 .nav-toggler {
     cursor: pointer;
-    height: 60px;
-    width: 55px;
+    height: 50px;
+    width: 50px;
     border: 1px solid var(--skin-color);
     background-color: var(--skin-color);
     position: fixed;
@@ -171,11 +170,7 @@ nav .logo a::after {
     display: none;
     justify-content: center;
     align-items: center;
-        /* --bg-black-900: #f2f2f2;
-    --bg-black-500: #fdf9ff;
-    --bg-black-100: #e8dfec;
-    --text-black-900: #302e4d;
-    --text-back-700: #504e70; */
+
 }
 
 .nav-toggler span {
@@ -674,7 +669,7 @@ i{
     .nav-toggler{
         z-index: 1;
         position: fixed;
-        top:5%;
+        top:2%;
         left: 5%;
         display: flex;
     }
@@ -703,6 +698,7 @@ i{
     nav .nav.DropDown .navlink{
         width: 80%;
     }
+
     .portofolio-item-inner .portofolio-img{
         margin: auto;
         width: 80%;
@@ -710,5 +706,9 @@ i{
     .portofolio-item-inner .portofolio-img img{
         width: 100%;
         }
-
+    nav a.navlink_a.active {
+    color: var(--skin-color);
+    font-size: 30px;
+    border-bottom: 2px solid var(--skin-color);
+}
 }

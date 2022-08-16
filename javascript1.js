@@ -11,15 +11,16 @@ window.addEventListener("scroll", () =>{
     }
 })
 
-
+function ToggleNavBack(){
+    document.querySelector(".nav").classList.remove("DropDown");
+}
 var btns =document.querySelectorAll(".navlink_a");
-
-// Loop through the buttons and add the active class to the current/clicked button
 for (var i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function() {
     var current = document.getElementsByClassName("active");
     current[0].className = current[0].className.replace(" active", "");
     this.className += " active";
+    ToggleNavBack();
 });
 }
 
