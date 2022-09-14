@@ -1,6 +1,6 @@
 const sections=document.querySelectorAll("section");
 const navlinks=document.querySelectorAll('.navlink');
- navlink_a =document.querySelectorAll(".navlink_a");
+const navlink_a =document.querySelectorAll(".navlink_a");
 window.addEventListener('scroll', ()=> {
     let current="";
     sections.forEach(section =>{
