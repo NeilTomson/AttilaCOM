@@ -1,6 +1,6 @@
 const sections=document.querySelectorAll("section");
 const navlinks=document.querySelectorAll('.navlink');
-const navlink_a =document.querySelectorAll(".navlink_a");
+ navlink_a =document.querySelectorAll(".navlink_a");
 window.addEventListener('scroll', ()=> {
     let current="";
     sections.forEach(section =>{
@@ -10,11 +10,11 @@ window.addEventListener('scroll', ()=> {
             current=section.getAttribute('id');
         }    
     })
-    //console.log(current);
+    console.log(current);
     navlink_a.forEach( a =>{
         a.classList.remove("active");
-        if(a.classList.contains(current)){
-            this.className += " active";
+        if(a.getAttribute('name')==current){
+            a.classList.add("active");
         }
     })
 })
